@@ -1,0 +1,30 @@
+body {
+    background-color: #201c1d;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+h1,h2 {
+    color: yellow;
+    text-align: center;
+}
+p {
+    color: aliceblue;
+    text-align: center;
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+div {
+    border-radius: 25px;
+    background-color: #694074;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+small {
+    color: black;
+}
