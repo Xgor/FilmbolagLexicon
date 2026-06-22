@@ -1,7 +1,6 @@
 body {
     background-color: #201c1d;
     margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: 20vw;
     margin-right: 20vw;
 }
@@ -26,5 +25,23 @@ div {
 
 }
 small {
-    color: black;
+    color: white;
+}
+footer {
+    height: 50px;
+    background-color: #3c2442;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* classes */
+
+/* ids */
+#LinkList {
+    display: flex;
+    margin: 30px;
+    background-color: #ffffff;
+}
+#LinkList > a {
+    flex: 1
 }
