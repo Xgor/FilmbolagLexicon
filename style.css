@@ -2,9 +2,12 @@ body {
     background-image: url("chessbg.png");
     background-repeat: repeat;
     margin-top: 50px;
+    margin-bottom: 75px;
     background-attachment: fixed;
     background-position: center;
+    margin: 0;
 }
+
 h1,h2 {
     color: #ffff0077;
     text-align: center;
@@ -45,7 +48,7 @@ footer {
     min-height: 50px;
     position: fixed;
     width: 100%;
-bottom: 0px;
+    bottom: 0px;
 }
 /* classes */
 
@@ -57,7 +60,8 @@ bottom: 0px;
     align-content: center;
     text-align: center;
     align-items: center;
-    margin: 0 20vw;
+    margin: 0 5vw;
+    padding: 2em;
 }
 #LinkList {
     display: flex;
@@ -66,4 +70,9 @@ bottom: 0px;
 }
 #LinkList > a {
     flex: 1
+}
+
+/* Desktop detection */
+@media screen and (min-width: 768px) {
+    #content { margin: 0 20vw;}
 }
