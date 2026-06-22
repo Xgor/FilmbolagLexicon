@@ -73,6 +73,13 @@ footer {
 }
 
 /* Desktop detection */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     #content { margin: 0 20vw;}
+}
+@media screen and (max-width: 700px) {
+    #content { 
+        margin: 0 0px;
+        padding: auto;
+        border-radius: 5px;
+    }
 }
