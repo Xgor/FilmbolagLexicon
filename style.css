@@ -2,8 +2,6 @@ body {
     background-image: url("chessbg.png");
     background-repeat: repeat;
     margin-top: 50px;
-    margin-left: 20vw;
-    margin-right: 20vw;
     background-attachment: fixed;
     background-position: center;
 }
@@ -14,23 +12,23 @@ h1,h2 {
     font-weight: bold;
 }
 p {
-    color: aliceblue;
+    color: #fff;
     text-align: center;
     font-style:oblique;
     font-family: 'Times New Roman', Times, serif;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 iframe {
     display: block;
     margin: auto;
 }
-div {
-    border-radius: 25px;
-    background-color: #69407499;
-    align-content: center;
-    text-align: center;
-    align-items: center;
 
-}
 small {
     color: white;
 }
@@ -40,10 +38,27 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: rgb(105, 42, 42);
+    border-style: dashed;
+    border-width: 0;
+    border-top-width: 3px;
+    min-height: 50px;
+    position: fixed;
+    width: 100%;
+bottom: 0px;
 }
 /* classes */
 
+
 /* ids */
+#content {
+    border-radius: 25px;
+    background-color: #694074dd;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 20vw;
+}
 #LinkList {
     display: flex;
     margin: 30px;
